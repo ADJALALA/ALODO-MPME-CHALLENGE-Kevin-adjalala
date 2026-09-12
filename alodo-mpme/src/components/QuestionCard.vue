@@ -118,10 +118,13 @@ function selectYesNo(value) {
 
 <style scoped>
 
-  @reference "../style.css";
+@reference "../style.css";
 
-  .option-btn {
-    @apply text-left bg-bg border border-border rounded-[10px] py-3 px-4
-          text-[0.95rem] text-ink hover:border-primary;
-  }
+/* Classe partagée par plusieurs boutons d'option : factorisée ici avec
+   @apply pour éviter de répéter la même chaîne de classes utilitaires
+   à chaque v-for ci-dessus. */
+.option-btn {
+  @apply text-left bg-bg border border-border rounded-[10px] py-3 px-4
+         text-[0.95rem] text-ink hover:border-primary;
+}
 </style>
