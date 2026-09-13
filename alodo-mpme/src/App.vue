@@ -1,7 +1,7 @@
 <template>
   <navbar/>
 
-  <img src="/alodo.jpeg" alt="ALODO" class="h-15 w-auto mx-auto justify-center px-5 mt-12" />
+  <img src="/alodo.jpeg" alt="ALODO" class="h-15 w-auto mx-auto justify-center px-5 mt-24" />
   <div class="min-h-screen flex flex-col">
     <router-view />
   </div>

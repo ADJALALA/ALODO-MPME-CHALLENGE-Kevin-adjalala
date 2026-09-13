@@ -3,6 +3,12 @@
     <p class="text-accent font-semibold mb-2">ALODO MPME</p>
     <h1 class="text-2xl mb-4">Evaluez la maturité de votre entreprise</h1>
     <p class="text-muted mb-4">
+      Vous etes micro, petites ou moyenne entreprise ?
+    </p>
+    <p class="text-muted mb-4">
+      Alodo-mpme vous accompagne dans votre parcours vers l'excellence
+    </p>
+    <p class="text-muted mb-4">
       Ce diagnostic rapide explore trois piliers de votre activité : votre
       gestion financière, votre approche commerciale et votre niveau de
       digitalisation. Vous répondrez à 9 questions simples.
