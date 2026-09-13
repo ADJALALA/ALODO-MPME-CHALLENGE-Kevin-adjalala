@@ -12,8 +12,7 @@ recommandation.
 
 ## 2. Choix produit — pourquoi ces dimensions et ces questions ?
 
-J'ai volontairement limité le périmètre à 3 dimensions sur les 8 possibles,
-comme demandé. J'ai choisi **Finance, Commercial et Digitalisation** car ce
+J'ai volontairement limité le périmètre à 3 dimensions sur les 8 possibles. J'ai choisi **Finance, Commercial et Digitalisation** car ce
 sont, à mon sens, les trois piliers les plus déterminants et les plus
 rapides à évaluer pour une micro/petite entreprise informelle ou
 semi-formelle en Afrique de l'Ouest : la plupart démarrent sans séparation
@@ -30,8 +29,8 @@ plusieurs formats dans une seule logique de scoring cohérente (voir
 
 ## 3. Choix techniques — pourquoi cette stack ?
 
-- **Vue 3 (Composition API)** : stack que je maîtrise et utilise au
-  quotidien.
+- **Vue 3 (Composition API)** : stack frontend que je maîtrise et utilise au
+  quotidien idéal pour site statique + Animation fluide.
 - **Pinia** : état du parcours (question courante, réponses, résultat)
   centralisé dans un seul store, plus simple à raisonner que du state
   local éclaté entre composants.
@@ -62,6 +61,7 @@ Pour générer une version de production :
 npm run build
 npm run preview
 ```
+Deploiement en ligne sur : https://alodo-mpme-prototype.vercel.app/
 
 ## 5. Fonctionnalités
 
@@ -79,7 +79,7 @@ npm run preview
 
 ## 6. Limites (volontairement laissées de côté)
 
-- Seulement 3 dimensions sur 8, comme demandé par la consigne.
+- Seulement 3 dimensions sur 8,.
 - Pas de compte utilisateur ni d'historique multi-sessions.
 - Pas de dashboard agrégé multi-MPME (hors périmètre du prototype).
 - La logique de recommandation est une table de textes simples par palier
